@@ -2,6 +2,7 @@
 name = "terminator"
 version = "0.1.0"
 dependencies = [
+ "scoped_threadpool 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "shred 0.0.1 (git+https://github.com/uutils/coreutils.git)",
  "walkdir 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "yaml-rust 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -41,6 +42,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "scoped_threadpool"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "shred"
