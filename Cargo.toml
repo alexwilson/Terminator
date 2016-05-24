@@ -1,0 +1,9 @@
+[package]
+name = "terminator"
+version = "0.1.0"
+authors = ["Alex Wilson <a@ax.gy>"]
+
+[dependencies]
+shred = { git = "https://github.com/uutils/coreutils.git", path = "src/shred" }
+walkdir = "0.1.5"
+yaml-rust = "0.3.2"
