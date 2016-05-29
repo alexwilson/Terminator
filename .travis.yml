@@ -153,6 +153,7 @@ matrix:
       env: TARGET=i686-unknown-linux-musl
 
 before_install:
+  - echo "files: []" > ~/.terminator.yml
   - export PATH="$PATH:$HOME/.cargo/bin"
 
 install:
